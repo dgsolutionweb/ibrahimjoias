@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </linearGradient>
+    <linearGradient id="diamond" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#F0F0F0"/>
+      <stop offset="100%" stop-color="#E0E0E0"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Ring band -->
+  <path d="M200 250 C200 180, 400 180, 400 250 C400 320, 200 320, 200 250" 
+        fill="url(#gold)" stroke="none"/>
+  
+  <!-- Diamond -->
+  <path d="M280 150 L320 150 L340 200 L300 240 L260 200 Z" 
+        fill="url(#diamond)" stroke="url(#gold)" stroke-width="2"/>
+  
+  <!-- Sparkles -->
+  <g fill="#FFFFFF" opacity="0.8">
+    <circle cx="300" cy="180" r="2"/>
+    <circle cx="290" cy="190" r="1"/>
+    <circle cx="310" cy="190" r="1"/>
+    <circle cx="300" cy="200" r="1.5"/>
+  </g>
+</svg> 
